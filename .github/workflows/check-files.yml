@@ -20,9 +20,9 @@ jobs:
 
             const REQUIRED = {
               'assignment-1': [
+                'ANSWERS.md',
                 'assignment-1/screencap-piracy-hotspots.png',
-                'assignment-1/screencap-model.png',
-                'assignment-1/README.md'
+                'assignment-1/screencap-model.png'
               ],
               'assignment-2': [
                 'assignment-2/map-tucson-wards.png',
