@@ -1,4 +1,4 @@
-name: Check Unit 4 Submission
+name: Check Unit 3 Submission
 
 on:
   pull_request:
@@ -15,8 +15,8 @@ jobs:
       - uses: actions/github-script@v7
         with:
           script: |
-            const UNIT = 4;
-            const EXPECTED_BRANCH = 'unit-4-work';
+            const UNIT = 3;
+            const EXPECTED_BRANCH = 'unit-3-work';
             const PLACEHOLDER = '_Your answer here._';
             const ASSIGNMENTS = [
               { title: "Assignment 1: QGIS Advanced", files: ["assignment-1/screencap-piracy-hotspots.png","assignment-1/screencap-model.png"] },

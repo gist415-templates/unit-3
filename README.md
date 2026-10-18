@@ -1,6 +1,6 @@
-# GIST 415 — Unit 4: QGIS Applied & Python Start
+# GIST 415 — Unit 3: QGIS Applied & Python Start
 
-This is your **Unit 4 repository**. You create it once, in Assignment 1, and use it for all 3 Unit 4 assignments. Do not create another repository for this unit.
+This is your **Unit 3 repository**. You create it once, in Assignment 1, and use it for all 3 Unit 3 assignments. Do not create another repository for this unit.
 
 Written answers go in [`SUBMISSION.md`](SUBMISSION.md). Screenshots and other files go in each assignment's `assignment-N/` folder.
 
@@ -8,10 +8,10 @@ Written answers go in [`SUBMISSION.md`](SUBMISSION.md). Screenshots and other fi
 
 1. On the template page, click **Use this template** → **Create a new repository**
 2. Set **Owner** to the class GitHub organization (the name is in the D2L course announcement), not your personal account
-3. Name it exactly `gist415-unit-4-YOUR_NETID` (for example `gist415-unit-4-jsmith`)
+3. Name it exactly `gist415-unit-3-YOUR_NETID` (for example `gist415-unit-3-jsmith`)
 4. Set visibility to **Private**
 5. Click **Create repository**, then clone it with GitHub Desktop (**File → Clone Repository**)
-6. In GitHub Desktop, create a branch named `unit-4-work` (**Current Branch → New Branch**) and click **Publish branch**
+6. In GitHub Desktop, create a branch named `unit-3-work` (**Current Branch → New Branch**) and click **Publish branch**
 
 ## Assignments
 
@@ -20,7 +20,7 @@ Written answers go in [`SUBMISSION.md`](SUBMISSION.md). Screenshots and other fi
 | A1: QGIS Advanced | `SUBMISSION.md` section, `assignment-1/screencap-piracy-hotspots.png`, `assignment-1/screencap-model.png` | 33 |
 | A2: QGIS Mutant Team Analysis | `assignment-2/map-tucson-wards.png`, `assignment-2/screencap-qgis.png` | 33 |
 | A3: Python Programming with Pandas | `assignment-3/lesson1.png`, `assignment-3/lesson2.png`, `assignment-3/lesson3.png`, `assignment-3/lesson4.png`, `assignment-3/lesson5.png` | 34 |
-| **Unit 4 total** | | **100** |
+| **Unit 3 total** | | **100** |
 
 Full instructions for each assignment are in D2L.
 
@@ -28,10 +28,10 @@ Full instructions for each assignment are in D2L.
 
 You work on **one branch** and open **one Pull Request** for the whole unit.
 
-1. Commit all Unit 4 work to your `unit-4-work` branch
-2. In Assignment 1, open a Pull Request from `unit-4-work` → `main`, titled `Unit 4 Submission — YOUR_NETID`
+1. Commit all Unit 3 work to your `unit-3-work` branch
+2. In Assignment 1, open a Pull Request from `unit-3-work` → `main`, titled `Unit 3 Submission — YOUR_NETID`
 3. For each later assignment, commit and push to the same branch; the same Pull Request updates automatically
-4. After Assignment 3, check that every row of the checker's comment shows ✅, then submit the Pull Request URL in the D2L Unit 4 submission folder
+4. After Assignment 3, check that every row of the checker's comment shows ✅, then submit the Pull Request URL in the D2L Unit 3 submission folder
 
 **Do not merge the Pull Request.** Leave it open for instructor review.
 
