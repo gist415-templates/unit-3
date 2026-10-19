@@ -35,6 +35,24 @@ You work on **one branch** and open **one Pull Request** for the whole unit.
 
 **Do not merge the Pull Request.** Leave it open for instructor review.
 
+## Starting the Docker Python Environment
+
+The `environment/` folder holds the Dockerfile for the course Python image: JupyterLab plus GeoPandas, Rasterio and the other libraries this course uses. You do not need Anaconda or Python installed on your computer.
+
+Build the image once per computer (5–15 minutes the first time), in PowerShell (Windows) or Terminal (Mac), from this repository's folder:
+
+```
+docker build -t gist415-python ./environment
+```
+
+Then, from this repository's folder, start JupyterLab each work session:
+
+```
+docker run --rm -it -p 8888:8888 -v "${PWD}:/home/jovyan/work" gist415-python
+```
+
+Open the URL the terminal prints, double-click `work` in the file browser, and save everything inside `work`. Full instructions: **Reference: Python Docker Environment for Units 3-4** in D2L, and Lecture 3.1.
+
 ## Automated Checker
 
 When you open or update your Pull Request, a GitHub Action posts a comment listing, for each assignment, whether its `SUBMISSION.md` section is answered and its required files are present. Assignments you have not reached yet show ❌ until you complete them.
